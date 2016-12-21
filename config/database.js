@@ -1,7 +1,7 @@
 // mongoose api http://mongoosejs.com/docs/2.7.x/docs/updating-documents.html
 var mongoose = require('mongoose');
 
-var dbURI = "mongodb://mlab_user:mlab_pass@ds159767.mlab.com:59767/eason_db";
+var dbURI = process.env.DBURI;
 
 mongoose.connect(dbURI);
 
