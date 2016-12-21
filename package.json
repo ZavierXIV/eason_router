@@ -1,0 +1,20 @@
+{
+  "name": "assignment01",
+  "version": "1.0.0",
+  "description": "asignment01",
+  "main": "echo.js",
+  "scripts": {
+    "start":"node server.js" 
+  },
+  "author": "ZAVIER",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "faker": "^3.1.0",
+    "file-stream-rotator": "0.0.7",
+    "fs": "0.0.2",
+    "mongoose": "^4.7.1",
+    "morgan": "^1.7.0"
+  }
+}
